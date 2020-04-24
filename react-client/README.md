@@ -18,7 +18,7 @@ Client is available @ `http://localhost:3000/`
 
 ### Challenge:
 
-1. Connect to the `graphql-server` with [Apollo Client](https://www.apollographql.com/docs/react/).
+1. Connect to the `graphql-server` with [Apollo Client](https://www.apollographql.com/docs/react/).<br/>
 Note: `apollo-boost`, `@apollo/react-hooks`, and `graphql` are already installed.
 ```
 import ApolloClient from 'apollo-boost';
@@ -39,11 +39,6 @@ query users {
 ```
 
 3. List users in the client.
-```
-{users.map(user =>
-  <span key={user.id}>{user.email}</span>
-)}
-```
 
-Don't worry about the styles on the client - it's not important for this challenge.
+Don't worry about the styles on the client - it's not important for this challenge.<br/>
 Feel free to add any packages needed to complete the challenge.

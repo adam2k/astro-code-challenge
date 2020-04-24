@@ -1,21 +1,7 @@
 type Query {
-  user(query: String): User!
   users(query: String): [User!]!
 }
 
 type Mutation {
-  createUser(data: CreateUserInput!): User!
-}
-
-type User {
-  id: ID!
-  email: String!
-}
-
-input CreateUserInput {
-  email: String!
-}
-
-enum MutationType {
-  CREATED
+  createUser: User!
 }
