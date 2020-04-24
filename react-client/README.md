@@ -4,10 +4,12 @@ This task is for demonstrating your understanding of GraphQL practices.
 
 ### System Requirements:
 
-NPM & Node
-Yarn
+- NPM & Node
+- Yarn
 
 ### Installation + Local Dev:
+
+`cd react-client`
 
 1. Run `yarn install`
 2. Run `yarn start`
